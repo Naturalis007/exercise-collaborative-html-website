@@ -1,26 +1,47 @@
 <!-- your html code here -->
-<div class="container">
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-title ">Contact</h2>
-            <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
-                ac cursus commodo.</p>
+<div class="container bg-white p-5">
+  <div class="row">
+    <div class="col 12">
+      <h2>Contact</h2>
+      <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
+        ac cursus commodo.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-8 bg-light border rounded py-2">
+      <form>
+        <div class="row mt-1">
+          <div class="col-1"></div>
+          <div class="col-3 mt-1">
+            <label for="exampleFormControlInput1" class="form-label float-end fw-bold">Your E-mail</label>
+          </div>
+          <div class="col-8">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+          </div>
         </div>
-    </div>    
-<div class="form">
-    <div class="row mb-3">
-      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="inputEmail3">
-      </div>
+        <div class="row mt-2">
+          <div class="col-1"></div>
+          <div class="col-3 mt-1">
+            <label for="exampleFormControlInput1" class="form-label float-end fw-bold">Your Message</label>
+          </div>
+          <div class="col-8">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height:150px"></textarea>
+              <label for="floatingTextarea">Please enter your message here...</label>
+            </div>
+          </div>
+
+        </div>
+        <div class="row mt-2">
+          <div class="col-10"></div>
+          <div class="col-2">
+            <button type="button" class="btn btn-primary float-end my-3">Submit</button>
+          </div>
+        </div>
+      </form>
     </div>
-    <div class="row mb-3">
-      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-      <div class="col-sm-10">
-        <input type="password" class="form-control" id="inputPassword3">
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary float-end">Submit</button>
-  </form>
+    <div class="col-2"></div>
+  </div>
 </div>
